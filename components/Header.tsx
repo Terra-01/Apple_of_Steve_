@@ -7,7 +7,6 @@ import {
 } from "@heroicons/react/outline";
 import { useSelector } from "react-redux";
 import { selectBasketItems } from "../redux/basketSlice";
-/* import { signIn, signOut, useSession } from "next-auth/react"; */
 
 function Header() {
   /* const session = false; */
@@ -24,17 +23,12 @@ function Header() {
         </div>
         </Link>
         </div>
-        <div className="hidden flex-1 items-center text-slate-200 justify-center space-x-1 md:flex">
-            <a className="headerLink">Welcome!</a>
-            <a className="headerLink">Please</a>
-            <a className="headerLink">don't</a>
-            <a className="headerLink">enter</a>
-            <a className="headerLink">your</a>
-            <a className="headerLink">personal</a>
-            <a className="headerLink">card</a>
-            <a className="headerLink">info</a>
-            <a className="headerLink">at</a>
-            <a className="headerLink">checkout!</a>
+        <div className="hidden flex-1 items-center text-slate-200 justify-center space-x-14 md:flex">
+            <Link href="https://terra01.vercel.app/"><a className="headerLink">Website</a></Link>
+            <Link href="https://github.com/Terra-01"><a className="headerLink">GitHub</a></Link>
+            <Link href="https://www.linkedin.com/in/shivam91s"><a className="headerLink">LinkedIn</a></Link>
+            <Link href="mailto:thisisshivam@icloud.com"><a className="headerLink">Mail</a></Link>
+            <Link href="https://discordapp.com/users/Terra#5293/"><a className="headerLink">Discord</a></Link>
         </div>
         <div className="flex items-center justify-center gap-x-4 md:w-1/5">
             <Link href="/checkout">
@@ -47,22 +41,6 @@ function Header() {
                 <ShoppingBagIcon className="headerIcon text-slate-100" />
               </div>
             </Link>
-
-            {/* {session ? (
-          <Image
-            src={
-              session.user?.image ||
-              "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
-            }
-            alt=""
-            className="cursor-pointer rounded-full"
-            width={34}
-            height={34}
-            onClick={() => signOut()}
-          />
-        ) : (
-          <UserIcon className="headerIcon text-slate-100" onClick={() => signIn()} />
-        )} */}
       </div>
     </header>
   );
