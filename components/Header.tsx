@@ -25,16 +25,11 @@ function Header() {
         </Link>
         </div>
         <div className="hidden flex-1 items-center text-slate-200 justify-center space-x-1 md:flex">
-            <a className="headerLink">Welcome!</a>
-            <a className="headerLink">Please</a>
-            <a className="headerLink">don't</a>
-            <a className="headerLink">enter</a>
-            <a className="headerLink">your</a>
-            <a className="headerLink">personal</a>
-            <a className="headerLink">card</a>
-            <a className="headerLink">info</a>
-            <a className="headerLink">at</a>
-            <a className="headerLink">checkout!</a>
+            <Link href="https://terra01.vercel.app/"><a className="headerLink">Website</a></Link>
+            <Link href="https://github.com/Terra-01"><a className="headerLink">GitHub</a></Link>
+            <Link href="https://www.linkedin.com/in/shivam91s"><a className="headerLink">LinkedIn</a></Link>
+            <Link href="mailto:thisisshivam@icloud.com"><a className="headerLink">Mail</a></Link>
+            <Link href="https://discordapp.com/users/Terra#5293/"><a className="headerLink">Discord</a></Link>
         </div>
         <div className="flex items-center justify-center gap-x-4 md:w-1/5">
             <Link href="/checkout">
