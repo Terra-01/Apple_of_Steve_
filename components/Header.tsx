@@ -7,7 +7,6 @@ import {
 } from "@heroicons/react/outline";
 import { useSelector } from "react-redux";
 import { selectBasketItems } from "../redux/basketSlice";
-/* import { signIn, signOut, useSession } from "next-auth/react"; */
 
 function Header() {
   /* const session = false; */
