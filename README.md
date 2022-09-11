@@ -1,27 +1,20 @@
-# Next.js + Tailwind CSS Example
+# This is Apple of Steve
+A production-level e-commerce website based on the products released by Apple Inc. in the period of Steve Jobs. This project was made in honour of Steve Jobs.
+This project uses server side rendering for blazing fast loading times, sanity studio CMS for management of products displayed on the website, and lastly, it also has stripe implementation for secure payment processing.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Technology stacks and Framework's Used:
 
-## Deploy your own
+Next.js, Redux, Sanity, React, TypeScript, JavaScript, HTML and Tailwind CSS.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+[Visit Website](https://apple-of-steve.vercel.app/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## FAQ's:-
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+##### What is Next.js?
+> Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites. React documentation mentions Next.js among "Recommended Toolchains" advising it to developers as a solution when "Building a server-rendered website with Node.js".Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side.
+##### What is Sanity Studio?
+> Sanity Studio is an open-source single page application built with React.js. You define your content models with simple JavaScript. You can also extend it with your own React.js components. The Studio comes with advanced features that lets you tailor workflows for your editors. You can also install and make plugins for Sanity Studio and publish them on npm.
+##### What is Redux?
+> Redux is a predictable state container for JavaScript apps.It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
+##### What is Tailwind CSS?
+> Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables.
