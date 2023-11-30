@@ -4,7 +4,7 @@ This project uses server side rendering for blazing fast loading times, sanity s
 
 ## Technology stacks and Framework's Used:
 
-Next.js, Redux, Sanity, React, TypeScript, JavaScript, HTML and Tailwind CSS.
+Next.js, Redux, Sanity, React, TypeScript, JavaScript, HTML and Tailwind CSS..
 
 [Visit Website](https://apple-of-steve.vercel.app/)
 
